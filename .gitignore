@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python_packages/
+
+# Azure Functions local configuration (contains secrets/endpoints)
+local.settings.json
+
+# Azurite local storage emulator files
+__blobstorage__/
+__queuestorage__/
+__azurite_db_*
+AzuriteConfig
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+*.log
